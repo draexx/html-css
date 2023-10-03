@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1200px;
+    height: 100vh;
+}
+table{
+    width: 100%;
+}
+table .logo {
+    width: 30%;
+    background: #FFC300;
+    height: 20%;
+}
+table .menu{
+    width: 70%;
+    background: #FF5733;
+    height: 20%;
+}
