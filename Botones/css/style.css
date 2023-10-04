@@ -54,5 +54,44 @@ body{
 }
 
 .boton{
-    
+    display: inline-flex;
+	align-items: center;
+	justify-content: center;
+    line-height: 60px;
+	width: 60px;
+	height: 60px;
+	background: #5C8374;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+.boton span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton.uno::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #00acee;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+
+.boton.uno:hover::after{
+    top:0;
 }
