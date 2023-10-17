@@ -7,6 +7,9 @@ Ejemplo de pagina en html y css. Html basico para explicar principales etiquetas
 ### Practica2
 Ejemplo de pagina en html y css. Html basico para explicar principales etiquetas y contenedores que existen; CSS basico para visualizar su uso y aplicacion.
 
+### Botones
+Ejemplo de Botones con efectos
+
 ### slide-manual
 Ejemplo de desarrollo de un slide de imagenes manual con control vertical en la parte izquierda
 
